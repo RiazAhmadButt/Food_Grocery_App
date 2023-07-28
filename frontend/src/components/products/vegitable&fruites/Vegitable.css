@@ -1,0 +1,82 @@
+.vegitableFruites {
+    width: 90%;
+    margin: auto;
+    padding: 50px 30px;
+}
+
+.head {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0px;
+}
+
+.title {
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #666666;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 3px solid #54B22C
+}
+
+.viewAll span {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #222222;
+}
+
+.fruiteCards{
+    display: flex;
+    gap: 10px;
+}
+
+
+/* Responsive styles for tablets */
+@media (max-width: 1024px) {
+    .vegitableFruites {
+        padding: 40px 20px;
+    }
+}
+
+/* Responsive styles for mobile (max-width: 768px) */
+@media (max-width: 768px) {
+    .vegitableFruites {
+        padding: 30px 15px;
+    }
+
+    .head {
+        flex-direction: column;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .viewAll {
+        text-align: left;
+    }
+
+    .fruiteCards {
+        flex-direction: column;
+    }
+}
+
+/* Responsive styles for small mobile screens (max-width: 420px) */
+@media (max-width: 420px) {
+    .vegitableFruites {
+        padding: 20px 10px;
+    }
+
+    .title {
+        font-size: 18px;
+    }
+}

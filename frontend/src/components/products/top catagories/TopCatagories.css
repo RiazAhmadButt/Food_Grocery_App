@@ -1,0 +1,43 @@
+/* TopCatagories.css */
+
+.catagoryCard {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto; /* Allow horizontal scrolling when there are more cards */
+    scroll-behavior: smooth; /* Add smooth scrolling effect */
+    margin-top: 30px;
+  }
+  
+  .catagory-cardBody {
+    flex: 1;
+    max-width: calc(100% / 7 - 10px); /* Adjust the percentage value to fit 7 cards */
+  }
+  
+  .catagory-cardBody img {
+    width: 100%;
+    height: auto;
+    mix-blend-mode: multiply;
+  }
+  
+  .catagory-cardBody .title-layout {
+    text-align: center;
+  }
+  
+  .catagory-cardBody .card-title {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Responsive styles for smaller screens (e.g., mobile and tablets) */
+@media (max-width: 768px) {
+  .catagory-cardBody {
+      max-width: calc(100% / 3 - 10px); /* Adjust the percentage value to fit 3 cards */
+  }
+}
+
+/* Responsive styles for very small mobile screens (e.g., max-width: 420px) */
+@media (max-width: 420px) {
+  .catagory-cardBody {
+      max-width: calc(100% / 2 - 10px); /* Adjust the percentage value to fit 2 cards */
+  }
+}

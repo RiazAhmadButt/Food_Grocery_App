@@ -1,0 +1,141 @@
+/* CardsSlider.css */
+
+.cards-slider {
+    width: 100%;
+    max-width: 1300px;
+    /* Adjust the maximum width of the slider container */
+    margin: 20px auto;
+    /* overflow: hidden; */
+    position: relative;
+}
+
+.slider-container {
+    display: flex;
+    transition: transform 0.3s ease;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.slider-card1 {
+    flex: 0 0 33.33%;
+    /* To show 3 cards in display */
+    padding: 10px;
+    text-align: center;
+    width: 408.17987060546875px;
+    height: 207px;
+    border-radius: 16px;
+    background-color: #115414;
+    display: flex;
+}
+
+.slider-card2 {
+    flex: 0 0 33.33%;
+    padding: 10px;
+    text-align: center;
+    width: 408.17987060546875px;
+    height: 207px;
+    border-radius: 16px;
+    background-color: #102861;
+    display: flex;
+}
+
+.slider-card3 {
+    flex: 0 0 33.33%;
+    padding: 10px;
+    text-align: center;
+    width: 408.17987060546875px;
+    height: 207px;
+    border-radius: 16px;
+    background-color: #75B032;
+    display: flex;
+}
+
+.sliderMainImg {
+    width: 167.88888549804688px;
+    height: 187px;
+}
+
+
+.layout-cpt {
+    width: Hug (193px);
+    height: Hug (39px);
+    top: 220px;
+    left: 146.90283203125px;
+    padding: 9px 20px 9px 20px;
+    border-radius: 8px;
+    gap: 10px;
+    background: #63B76D;
+}
+
+.cpt2{
+    background: #2A4D97;
+}
+.cpt3{
+    background: #8CBE5A;
+}
+.cpt {
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.cpo {
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.sliderCardDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+.card h3 {
+    margin-top: 10px;
+}
+
+.arrows {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+}
+
+.arrow {
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.dot.active {
+    background-color: #54B22C;
+}

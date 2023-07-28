@@ -1,0 +1,18 @@
+.logo {
+    width: 131px;
+    height: 38px;
+    border-radius: 8px;
+    background-color: #9A578F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo span {
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+}

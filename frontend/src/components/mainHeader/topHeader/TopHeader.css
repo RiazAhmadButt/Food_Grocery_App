@@ -1,0 +1,85 @@
+.topHeaderBody {
+    width: 100%;
+    height: 45px;
+    background: #F8CB47;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 130px;
+    padding-left: 130px;
+}
+
+.topNav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 10px;
+}
+.topHeadText {
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #666666;
+}
+
+.location,
+.orderTrack {
+    border-right: 2px solid white;
+    height: 20px;
+    padding-right: 10px;
+}
+
+.locationIcon {
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+.location,
+.orderTrack,
+.offers{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+
+
+/* Responsive styles for smaller screens (e.g., tablets and mobiles) */
+@media (max-width: 768px) {
+    .topHeaderBody {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .topHeadText {
+        font-size: 12px;
+    }
+
+    .location,
+    .orderTrack,
+    .offers {
+        gap: 5px;
+    }
+}
+
+/* Additional responsive styles for very small mobile screens (e.g., max-width: 420px) */
+@media (max-width: 420px) {
+    .topHeaderBody {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .topHeadText {
+        font-size: 10px;
+    }
+
+    .location,
+    .orderTrack,
+    .offers {
+        gap: 3px;
+    }
+}
